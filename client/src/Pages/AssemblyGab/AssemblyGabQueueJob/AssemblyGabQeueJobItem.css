@@ -1,0 +1,17 @@
+.dispatch_queue-header,
+.dispatch_queue-row {
+  grid-template-columns: 90px 90px 140px 100px 100px 150px 150px 1fr;
+}
+
+
+.dispatch_advance-header,
+.dispatch_advance-row {
+  grid-template-columns: 90px 80px 140px 120px 100px 100px 150px 150px 1fr;
+}
+
+.dispatch-q-template,
+.dispatch_intransit,
+.dispatch_history,
+.dispatch_advance{
+  grid-template-rows: min-content min-content 1fr;
+}

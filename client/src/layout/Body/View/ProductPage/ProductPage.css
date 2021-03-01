@@ -1,0 +1,17 @@
+.product_page {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 6% 1fr;
+}
+
+.product_page-img {
+    grid-column: 1 / 2;
+}
+
+.product_page-details {
+    grid-column: 2 / -1;
+}
+
+.product_page-img,
+.product_page-details {
+    grid-row: 2 / -1;
+}

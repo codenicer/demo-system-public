@@ -1,0 +1,12 @@
+.table_header {
+    border: 1px solid var(--table-border);
+    color: var(--header-color);
+}
+
+._action_header,
+.table_header,
+._orderid_header,
+._checkbox_header,
+._orderid_header-bulk {
+    background: var(--header-background);
+}

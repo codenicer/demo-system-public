@@ -1,0 +1,4 @@
+.sidebar {
+    grid-row: 2 /-1;
+    border-right: 1px solid #ccc;
+}

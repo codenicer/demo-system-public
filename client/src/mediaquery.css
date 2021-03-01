@@ -1,0 +1,14 @@
+@media screen and (max-width: 1366px) {
+
+    .product_row-title {
+      max-width: 140px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .product_row-added > .product_row-title_wrap > .product_row-title {
+      max-width: 200px;
+    }
+
+  }

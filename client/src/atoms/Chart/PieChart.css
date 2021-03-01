@@ -1,0 +1,26 @@
+._chart,
+._chart-wrap {
+    height: calc(var(--size) * 1px);
+    width: calc(var(--size) * 1px);
+}
+
+._chart-two {
+    background-image: conic-gradient(var(--chartcolor) var(--value), rgba(0,0,0,.1) var(--value), rgba(0,0,0,.1));
+}
+
+._chart-center {
+    top: 12.5%;
+    left: 12.5%;
+    width: calc((var(--size) * .75) * 1px);
+    height: calc((var(--size) * .75) * 1px);
+}
+
+._chart-label_hide {
+    opacity: 0;
+    transition: opacity .2s;
+    z-index: 2;
+}
+
+._chart-label_hide:hover {
+    opacity: 1;
+}

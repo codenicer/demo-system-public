@@ -1,0 +1,30 @@
+.florist_q_row-id {
+  grid-column: 1 / 1;
+}
+
+.florist_q_row-off {
+  background: var(--disabled-bg) !important;
+  color: var(--disabled) !important;
+}
+
+.product_preview {
+  top: 0;
+  right: 0;
+  z-index: 20;
+  grid-template-rows: min-content 1fr auto;
+}
+.florist-live_template {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+._florist_queue-template {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+._florist_table {
+  grid-template-rows: auto auto 1fr;
+}
+
+._florist_production-template{
+    grid-template-columns: repeat(6, 1fr);
+}

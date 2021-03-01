@@ -1,0 +1,11 @@
+.tab {
+    text-align: center;
+}
+
+.tab_active {
+    border: 1px solid var(--table-border);
+    border-bottom-color: var(--header-background);
+    background: var(--header-background);
+    border-radius: 10px 10px 0 0;
+    box-shadow: 1px 1px 2px #929292;
+}

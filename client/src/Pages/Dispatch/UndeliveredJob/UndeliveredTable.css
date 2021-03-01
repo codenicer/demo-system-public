@@ -1,0 +1,5 @@
+.undelivered_header,
+.undelivered_row {
+    grid-template-columns: 85px 75px 120px 90px 150px 150px 80px 110px 100px 1fr;
+    grid-gap: 5px;
+}

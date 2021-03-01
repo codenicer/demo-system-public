@@ -1,0 +1,84 @@
+{
+    "statuses": [
+        { 
+            "label": "Cancelled",
+            "value": "cancelled",
+            "color": "#F4CCCC"
+        },
+        {
+            "label": "On hold",
+            "value": "hold",
+            "color": "#D0E0E3"
+
+        },
+        {
+            "label": "Pending",
+            "value": "pending",
+            "color": "#FFF2CC"
+        },
+        {
+            "label": "Booking",
+            "value": "booking",
+            "color": "#FFF2CC"
+        },
+        {
+            "label": "Rider assigned",
+            "value": "rider_assigned",
+            "color": "#FFF2CC"
+        },
+        {
+            "label": "Shipped",
+            "value": "shipped",
+            "color": "#D9EAD3"
+        },
+        {
+            "label": "Delivered",
+            "value": "delivered",
+            "color": "#D9EAD3"
+        },
+        {
+            "label": "Failed delivery",
+            "value": "failed_delivery",
+            "color": "#F9CB9C"
+        }
+    ],
+
+    "delivery_time": [
+        "Anytime",
+        "9am - 1pm",
+        "1pm - 5pm",
+        "5pm - 8pm"
+    ],
+
+    "payment": [
+        {
+            "id": 1,
+            "name": "eGHL"
+        },
+        {
+            "id": 2,
+            "name": "COD"
+        },
+        {
+            "id": 3,
+            "name": "CPU"
+        },
+        {
+            "id": 4,
+            "name": "Paypal"
+        },
+        {
+            "id": 5,
+            "name": "Paypal - Intl"
+        },
+        {
+            "id": 6,
+            "name": "Bank - BPI"
+        },
+        {
+            "id": 7,
+            "name": "Dragonpay"
+        }
+    ]
+
+}

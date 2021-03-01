@@ -1,0 +1,16 @@
+.order_header {
+    grid-template-columns: auto auto auto 1fr;
+}
+.order_header-btn {
+    grid-template-columns: auto auto 1fr auto;
+}
+
+.order_header,
+.order_header-btn {
+    grid-column: 1 / -1;
+}
+
+.order_page-save_changes {
+    grid-column: 4 / -1;
+    grid-row: 1 / 3;
+}

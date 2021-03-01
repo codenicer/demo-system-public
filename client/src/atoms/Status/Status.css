@@ -1,0 +1,47 @@
+.status-Available,
+.status_no-dot-Available {
+    color: var(--green);
+}
+
+.status-Working,
+.status_no-dot-Working {
+    color: var(--warning);
+}
+
+.status-Off,
+.status_no-dot-OFf {
+    color: var(--disabled);
+}
+
+.status-Break,
+.status-Away,
+.status_no-dot-Break,
+.status_no-dot-Away {
+    color: var(--yellow); 
+}
+
+.status-Available:after,
+.status-Working:after,
+.status-Away:after,
+.status-Break:after {
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    left: 0;
+    top: calc(50% - 4px);
+}
+
+.status-Available:after {
+    background: var(--green);
+}
+
+.status-Working:after {
+    background: var(--warning);
+}
+
+.status-Break:after,
+.status-Away:after {
+    background: var(--yellow);
+}

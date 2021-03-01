@@ -1,0 +1,28 @@
+.payment-status--wrap {
+  display: inline-block;
+}
+
+.payment-status {
+  padding: 0.2rem 0.6rem;
+  border-radius: 10px;
+}
+
+.payment-status--paid {
+  background: var(--green);
+}
+
+.printed-status {
+  background: #7fcdbb;
+}
+
+.payment-status--pending {
+  background: var(--yellow);
+}
+
+.payment-status--refunded {
+  background: var(--input-placeholder-color);
+}
+
+.payment-status--overdue {
+  background: var(--warning);
+}

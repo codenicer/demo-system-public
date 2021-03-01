@@ -1,0 +1,16 @@
+
+.ticket_page-wrap {
+    grid-template-rows: min-content min-content 1fr;
+}
+
+.ticket_page-comment_wrap {
+    grid-auto-rows: min-content;
+}
+
+.ticket_page-comments_wrap {
+    grid-template-rows: min-content 1fr min-content;
+}
+
+.ticket_page-header {
+    grid-template-columns: auto 1fr min-content min-content;
+}

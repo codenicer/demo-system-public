@@ -1,0 +1,3 @@
+.user_list-template {
+  grid-template-columns: repeat(7, 1fr) 2fr;
+}

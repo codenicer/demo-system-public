@@ -1,0 +1,11 @@
+.stack_bar-parent {
+    font-size: .9rem;
+    text-shadow: 1px 1px black;
+    color: white;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.stack_bar-parent:hover {
+    opacity: 1;
+}

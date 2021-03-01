@@ -1,0 +1,7 @@
+.comment {
+    border-top: 1px solid #ddd;
+}
+
+.comment_header {
+    grid-template-columns: min-content auto 1fr;
+}

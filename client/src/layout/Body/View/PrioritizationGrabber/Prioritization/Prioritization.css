@@ -1,0 +1,12 @@
+.prioritization-header_wrap {
+    padding: 1rem 0;
+}
+
+.prio_qty {
+    grid-column: 3 / 4;
+}
+
+.prioritization_header,
+.prioritization_row {
+    grid-template-columns: 100px 150px 80px 150px 100px 120px 1fr;
+}

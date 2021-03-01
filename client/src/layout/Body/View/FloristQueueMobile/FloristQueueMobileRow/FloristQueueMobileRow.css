@@ -1,0 +1,28 @@
+.floristq-mobile--row {
+    grid-template-rows: 1fr;
+    margin-bottom: 10px;
+}
+
+.floristq-mobile--img {
+    grid-row: 2 /-1;
+}
+
+.floristq-mobile--priority {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3
+}
+
+.floristq-mobile--batch {
+    grid-row: 2 / 3;
+    grid-column: 2 /3;
+}
+
+.floristq-mobile--product {
+    white-space: pre-line;
+    text-align: center;
+}
+
+.mobile-button--position {
+    align-self: stretch;
+    justify-self: stretch;
+}

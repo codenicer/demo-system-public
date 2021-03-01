@@ -1,0 +1,6 @@
+export const LOAD_ROLES  = 'LOAD_ROLES';
+export const LOAD_ROLE_LIST  = 'LOAD_ROLE_LIST';
+export const LOAD_ROLE_INFO  = 'LOAD_ROLE_INFO';
+export const LOAD_ROLE_PERMISSIONS  = 'LOAD_ROLE_PERMISSIONS';
+export const LOAD_MODULE_ITEMS  = 'LOAD_MODULE_ITEMS';
+

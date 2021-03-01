@@ -1,0 +1,9 @@
+.balloon {
+    height: 15px;
+    width: 15px;
+    background: var(--warning);
+    color: white;
+    font-size: .7rem;
+    right: -10px;
+    top: -10px;
+}

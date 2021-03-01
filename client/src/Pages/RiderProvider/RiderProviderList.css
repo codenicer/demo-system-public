@@ -1,0 +1,3 @@
+.rider-provider_list-template {
+  grid-template-columns: repeat(5, 1fr);
+}

@@ -1,0 +1,16 @@
+.floristq-mobile--job {
+    grid-template-rows: min-content .9fr auto 50px;
+}
+
+.mobile-job--tableWrap  {
+    grid-template-columns: auto 1fr;
+    grid-gap: 0 .5rem;
+}
+
+.mobile-job--button_wrap {
+    grid-template-columns: 3fr 1fr;
+}
+
+.floristq-mobile--job_w-notes {
+    grid-template-columns: 1fr 1fr;
+}

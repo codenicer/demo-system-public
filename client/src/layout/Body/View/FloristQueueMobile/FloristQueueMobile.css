@@ -1,0 +1,3 @@
+.floristq_mobile-row_wrap_hold {
+    grid-template-rows: min-content min-content min-content 1fr;
+}

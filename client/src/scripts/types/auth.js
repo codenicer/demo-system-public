@@ -1,0 +1,7 @@
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+export const LOGIN_FAILED = 'LOGIN_FAILED'
+export const SET_FETCHING = 'SET_FETCHING'
+export const LOAD_USER = 'LOAD_USER'
+export const SET_ERROR = 'SET_ERROR'
+export const USER_LOGOUT = 'USER_LOGOUT'
+export const REMOVE_PRODUCT = 'REMOVE_PRODUCT'

@@ -1,0 +1,57 @@
+._action_header,
+._action_row {
+    width: 170px;
+    z-index: 4;
+}
+
+
+._orderid_header,
+._orderid-row {
+    left: 170px
+}
+
+._orderid_header-bulk,
+._orderid-row-bulk {
+    left: 100px;
+}
+
+._checkbox_header,
+._checkbox_row,
+._orderid_header-bulk,
+._orderid-row-bulk,
+._orderid_header,
+._orderid-row {
+    width: 100px;
+}
+
+._orderid_header,
+._orderid-row,
+._orderid_header-bulk,
+._orderid-row-bulk,
+._checkbox_header,
+._checkbox_row {
+    z-index: 3;
+}
+
+._action_header,
+._action_row,
+._checkbox_header,
+._checkbox_row {
+    left: 0;
+}
+
+._action_header,
+._action_row,
+._orderid_header,
+._orderid-row,
+._orderid_header-bulk,
+._orderid-row-bulk,
+._checkbox_header,
+._checkbox_row  {
+    position: sticky;
+    height: inherit;
+}
+
+.delivery__sort:hover{
+    cursor: pointer;
+}

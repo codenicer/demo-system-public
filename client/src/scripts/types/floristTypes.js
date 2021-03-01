@@ -1,0 +1,2 @@
+export const LOAD_FLORIST = "LOAD_FLORIST"
+export const UPDATE_FLORIST = "UPDATE_FLORIST"

@@ -1,0 +1,3 @@
+.cpu_orders-template {
+    grid-template-columns: .8fr .8fr .8fr 1fr 1.8fr .8fr .8fr 1fr;
+}

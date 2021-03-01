@@ -1,0 +1,22 @@
+.table_row {
+    border: 1px solid var(--row-border);
+    border-collapse: collapse;    
+}
+
+.new_order-indicator--1,
+.new_order-indicator--2 {
+    font-weight: bolder !important;
+    border-color: white;
+}
+
+.new_order-indicator--1,
+.new_order-indicator--1 > *,
+.new_order-indicator--1 > * > * {
+    background: rgb(250, 226, 226) !important;
+}
+
+.new_order-indicator--2,
+.new_order-indicator--2 > *,
+.new_order-indicator--2 > * > *  {
+    background: rgb(222, 246, 230) !important; 
+}

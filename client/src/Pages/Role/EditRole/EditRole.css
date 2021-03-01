@@ -1,0 +1,13 @@
+.create_user-wrap {
+    margin: 0 10%;
+    padding: 1rem 5%;
+}
+
+.user-wrap {
+    align-content: center;
+    justify-content: center;
+}
+
+.hub-wrap {
+    grid-template-rows: auto auto 1fr;
+}

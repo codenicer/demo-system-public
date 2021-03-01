@@ -1,0 +1,11 @@
+.upload-input_file {
+    opacity: 0;
+    left: 0px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.upload_btn-icon {
+    z-index: 25;
+}
+

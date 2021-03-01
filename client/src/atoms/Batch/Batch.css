@@ -1,0 +1,7 @@
+.batch {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: .2rem .5rem;
+    border-color: #7fcdbb;
+    color: #7fcdbb;
+}

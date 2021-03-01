@@ -1,0 +1,360 @@
+{
+ "paymentStatus" : [
+    {
+        "name": "Paid",
+        "id": 2,
+        "tbname": "payment_status_id"
+    },
+    {
+        "name": "Pending",
+        "id": 1,
+        "tbname": "payment_status_id"
+    },
+    {
+        "name": "Overdue",
+        "id": 4,
+        "tbname": "payment_status_id"
+    },
+    {
+        "name": "Refunded",
+        "id": 3,
+        "tbname": "payment_status_id"
+    }
+],
+ "paymentMethod" : [
+    {
+        "name": "eGHL",
+        "value": "eGHL",
+        "id": 1,
+        "tbname": "payment_id"
+    },
+    {
+        "name":"Cash On Delivery",
+        "value": "COD",
+        "id": 2,
+        "tbname": "payment_id"      
+    },
+    {
+        "name": "CPU",
+        "value": "CPU",
+        "id": 3,
+        "tbname": "payment_id"  
+    },
+    {
+        "name": "Paypal",
+        "value": "Paypal",
+        "id": 4,
+        "tbname": "payment_id"
+    },
+    {
+        "name": "Paypal International",
+        "value": "Paypal_intl",
+        "id": 5,
+        "tbname": "payment_id"
+    },
+    {
+        "name": "BPI",
+        "value": "Bank - BPI",
+        "id": 6,
+        "tbname": "payment_id"  
+    },
+    {
+        "name": "Dragonpay",
+        "value": "Dragonpay",
+        "id": 7,
+        "tbname": "payment_id"
+    },
+    {
+        "name": "Prepaid",
+        "value": "Prepaid",
+        "id": 8,
+        "tbname": "payment_id"
+    }
+],
+ "orderStatus" : [
+    {
+        "name": "Created",
+        "id": 1,
+        "tbname": "order_status_id"
+    },
+    {
+        "name": "Accepted",
+        "id": 2,
+        "tbname": "order_status_id"
+    },
+    {
+        "name": "Ready for production",
+        "id": 3,
+        "tbname": "order_status_id"
+    },
+    {
+        "name": "In production",
+        "id": 4,
+        "tbname": "order_status_id"
+    },
+    {
+        "name": "Ready to assemble",
+        "id": 5,
+        "tbname": "order_status_id"
+    },
+    {
+        "name": "In assembly",
+        "id": 6,
+        "tbname": "order_status_id"   
+    },
+    {
+        "name": "Ready to ship",
+        "id": 7,
+        "tbname": "order_status_id"
+    },
+    {
+        "name": "Rider assigned",
+        "id": 8,
+        "tbname": "order_status_id"
+    },
+    {
+        "name": "Shipped",
+        "id": 9,
+        "tbname": "order_status_id"
+    },
+    {
+        "name": "Delivered",
+        "id": 10,
+        "tbname": "order_status_id"
+    },
+    {
+        "name": "Failed delivery",
+        "id": 11,
+        "tbname": "order_status_id"
+    },
+    {
+        "name": "On hold",
+        "id": 12,
+        "tbname": "order_status_id"
+    },
+    {
+        "name": "Cancelled by Internal",
+        "id": 13,
+        "tbname": "order_status_id"
+    },
+    {
+        "name": "Cancelled by Customer",
+        "id": 14,
+        "tbname": "order_status_id"
+    },
+    {
+        "name": "Dispatch Booked",
+        "id": 15,
+        "tbname": "order_status_id"
+    }
+    ],
+"deliverytime": [
+    {
+        "id":"Anytime",
+        "tbname":"delivery_time"
+    },
+    {
+        "id":"12am - 3am",
+        "tbname":"delivery_time"
+    },
+    {
+        "id":"6am - 8am",
+        "tbname":"delivery_time"
+    },
+    {
+        "id":"9am - 1pm",
+        "tbname":"delivery_time"
+    },
+    {
+        "id":"1pm - 5pm",
+        "tbname":"delivery_time"
+    },
+    {
+        "id":"5pm - 8pm",
+        "tbname":"delivery_time"
+    },
+    {
+        "id":"9pm - 12am",
+        "tbname":"delivery_time"
+    }
+    ],
+"disposition": [
+    {
+        "id": 1,
+        "name": "ODZ",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 2,
+        "name": "Out of stock",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 3,
+        "name": "All add-ons",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 4,
+        "name": "Unrecognized Address",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 5,
+        "name": "COD > threshold",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 6,
+        "name": "Missing Component",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 7,
+        "name": "Missing delivery date",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 13,
+        "name": "No payment method",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 14,
+        "name": "Previous delivery date",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 15,
+        "name": "3rd party supplier needed",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 16,
+        "name": "Stalker order",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 17,
+        "name": "No proof of payment",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 18,
+        "name": "CPU ASAP",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 19,
+        "name": "COD Non Matching Address",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 20,
+        "name": "CPU Same Address",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 21,
+        "name": "Antipolo Delivery Address",
+        "colname": "disposition_id"
+    },
+    {
+        "id": 22,
+        "name": "Multiple Transaction",
+        "colname": "disposition_id"
+    }
+    
+],
+    "floristDisposition": [
+        {
+            "id": 2,
+            "name": "Out of stock"
+        },
+        {
+            "id": 6,
+            "name": "Missing Component"
+        }
+    ],
+
+    "hubs": [
+        {
+            "id": 1,
+            "name": "Manila"
+        },
+        {
+            "id": 2,
+            "name": "Cebu"
+        },
+        {
+            "id": 3,
+            "name": "Davao"
+        },
+        {
+            "id": 5,
+            "name": "RestOfPhil"
+        }
+
+    ],
+
+    "paymentOptions" : [
+        {
+            "id": 1,
+            "value": "eGHL",
+            "label": "eGHL"
+
+        },
+        {
+            "id": 2,
+            "value": "COD",
+            "label":"Cash On Delivery"
+
+        },
+        {
+            "id": 3,
+            "value": "CPU",
+            "label": "CPU"
+
+        },
+        {
+            "id": 4,
+            "value": "Paypal",
+            "label": "Paypal"
+
+        },
+        {
+            "id": 5,
+            "value": "Paypal_intl",
+            "label": "Paypal International"
+
+        },
+        {
+            "id": 6,
+            "value": "Bank - BPI",
+            "label": "BPI"
+
+        },
+        {
+            "id": 7,
+            "value": "Dragonpay",
+            "label": "Dragonpay"
+
+        },
+        {
+            "id": 8,
+            "value": "Prepaid",
+            "label": "Prepaid"
+
+        },
+        {
+            "id": 9,
+            "value": "Billease",
+            "label": "Billease"
+
+        }
+    ],
+    
+    "currency": "₱"
+
+}
+

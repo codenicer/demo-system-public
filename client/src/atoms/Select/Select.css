@@ -1,0 +1,19 @@
+._select-wrap {
+    border: 1px solid #929292;
+    padding: 3px;
+    grid-template-columns: 1fr 16px 16px;
+}
+
+._select-input {
+    border: none;
+    outline: none;
+}
+
+._select-wrap:focus-within {
+    box-shadow: 0 .5px 0 0 var(--blue); /* Border bottom */
+    box-shadow: 0 -.5px 0 0 var(--blue); /* Border top */
+    box-shadow: -.5px 0 0 0 var(--blue); /* Border left */
+    box-shadow: .5px 0 0 0 var(--blue);
+    box-shadow: 0 0 0 .5px var(--blue);
+    border-color: var(--blue)
+}

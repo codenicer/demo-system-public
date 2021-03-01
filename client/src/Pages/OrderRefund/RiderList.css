@@ -1,0 +1,9 @@
+.r-user_list-template {
+  grid-template-columns: repeat(7, 1fr) 2fr;
+}
+.r-header{
+  font-size: 1.1rem;
+}
+.r-text{
+  font-size: 1.3rem;
+}

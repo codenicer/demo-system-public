@@ -1,0 +1,118 @@
+.button {
+    padding: .4rem .8rem;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    background: var(--header-color);
+    color: var(--button-font-color);
+    transition: all .2s;
+    position: relative;
+}
+
+.button-color--primary {
+    background: var(--primary);
+}
+
+.button-color--secondary {
+    background: var(--secondary);
+}
+
+.button-color--success {
+    background: var(--green);
+}
+
+.button-color--alert {
+    background: var(--yellow);
+}
+
+.button-color--warning {
+    background: var(--warning);
+}
+
+.button-size--small {
+    transform: scale(.8);
+}
+
+.button-size--large {
+    transform: scale(1.1);
+}
+
+.button:hover {
+    border-color: var(--header-color);
+    color: var(--font-color);
+    background: var(--button-font-color);
+}
+
+.button-color--primary:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    background: var(--button-font-color);
+}
+
+.button-color--secondary:hover {
+    border-color: var(--secondary);
+    color: var(--secondary);
+    background: var(--button-font-color);
+}
+
+.button-color--success:hover {
+    border-color: var(--green);
+    color: var(--green);
+    background: var(--button-font-color);
+}
+
+.button-color--alert:hover {
+    border-color: var(--yellow);
+    color: var(--yellow);
+    background: var(--button-font-color);
+}
+
+.button-color--warning:hover {
+    border-color: var(--warning);
+    color: var(--warning);
+    background: var(--button-font-color);
+}
+
+#button-state--disabled,
+#button-state--disabled:hover {
+    background: var(--disabled-bg);
+    color: var(--disabled);
+    border-color: transparent;
+}
+
+.button-color--neutral,
+.button-color--neutral:hover {
+    color: rgba(0,0,0,.9);   
+    background: white;
+}
+
+.button-color--neutral {
+    border-color: var(--neutral);
+}
+
+.button-color--neutral:hover {
+    border-color: rgba(0,0,0,.8);
+}
+
+.button-loading:after,
+.button-loading:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transform-origin: 0 100%;
+}
+
+.button-loading:after {
+    background: #00A8E8;
+    animation: preload 1s infinite;
+}
+
+.button-loading:before {
+    background: #fff;
+    display: hidden;
+    animation: preload1 1s infinite;
+    z-index: 1;
+}
+

@@ -1,0 +1,226 @@
+.order-status {
+    max-width: 126px;
+    width: 126px;
+}
+
+.progress_one:before,
+.progress_two:before,
+.progress_three:before {
+    left: 0;
+    margin-left: -15px;
+}
+
+.progress_one:after,
+.progress_two:after,
+.progress_three:after {
+    right: 0;
+    margin-right: -15px;
+}
+
+.status-progress--bar,
+.progress_one:before,
+.progress_two:before,
+.progress_three:before,
+.progress_one:after,
+.progress_two:after,
+.progress_three:after {
+    border-radius: 25%;
+    line-height: 5px;
+}
+
+.progress_one:before,
+.progress_two:before,
+.progress_three:before,
+.progress_one:after,
+.progress_two:after,
+.progress_three:after {
+    margin-bottom: -1px;
+}
+
+
+.progress_one,
+.progress_two,
+.progress_three {
+    height: 9px;
+    width: 13px;
+}
+
+.progress_one:before,
+.progress_two:before,
+.progress_three:before,
+.progress_one:after,
+.progress_two:after,
+.progress_three:after {
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.progress_one:before,
+.progress_two:before,
+.progress_three:before,
+.progress_one:after,
+.progress_two:after,
+.progress_three:after,
+.progress_one,
+.progress_two,
+.progress_three {
+    border: 1px solid #929292;
+}
+
+.status-created > .progress_one:before,
+.status-accepted > .progress_one:before,
+.status-accepted > .progress_one,
+.status-ready_for_production > .progress_one:before,
+.status-ready_for_production > .progress_one,
+.status-ready_for_production > .progress_one:after {
+    background: #929292;
+}
+
+
+.status-on_hold > .progress_one:before,
+.status-on_hold > .progress_one,
+.status-on_hold > .progress_one:after,
+.status-on_hold > .progress_two:before,
+.status-on_hold > .progress_two,
+.status-on_hold > .progress_two:after,
+.status-on_hold > .progress_three:before,
+.status-on_hold > .progress_three,
+.status-on_hold > .progress_three:after {
+    background: var(--warning);
+}
+
+.status-in_production > .progress_one:before,
+.status-in_production > .progress_one,
+.status-in_production > .progress_one:after,
+.status-in_production > .progress_two:before,
+.status-ready_to_assemble > .progress_one:before,
+.status-ready_to_assemble > .progress_one,
+.status-ready_to_assemble > .progress_one:after,
+.status-ready_to_assemble > .progress_two:before,
+.status-ready_to_assemble > .progress_two,
+.status-in_assembly > .progress_one:before,
+.status-in_assembly > .progress_one,
+.status-in_assembly > .progress_one:after,
+.status-in_assembly > .progress_two:before,
+.status-in_assembly > .progress_two,
+.status-in_assembly > .progress_two:after {
+    background: var(--yellow);
+    border-color: var(--yellow);
+}
+
+.status-ready_to_ship > .progress_one:before,
+.status-ready_to_ship > .progress_one,
+.status-ready_to_ship > .progress_one:after,
+.status-ready_to_ship > .progress_two:before,
+.status-ready_to_ship > .progress_two,
+.status-ready_to_ship > .progress_two:after,
+.status-ready_to_ship > .progress_three:before,
+.status-rider_assigned > .progress_one:before,
+.status-rider_assigned > .progress_one,
+.status-rider_assigned > .progress_one:after,
+.status-rider_assigned > .progress_two:before,
+.status-rider_assigned > .progress_two,
+.status-rider_assigned > .progress_two:after,
+.status-dispatch_booked > .progress_one:before,
+.status-dispatch_booked > .progress_one,
+.status-dispatch_booked > .progress_one:after,
+.status-dispatch_booked > .progress_two:before,
+.status-dispatch_booked > .progress_two,
+.status-shipped > .progress_one:before,
+.status-shipped > .progress_one,
+.status-shipped > .progress_one:after,
+.status-shipped > .progress_two:before,
+.status-shipped > .progress_two,
+.status-shipped > .progress_two:after,
+.status-shipped > .progress_three:before,
+.status-shipped > .progress_three,
+.status-delivered > .progress_one:before,
+.status-delivered > .progress_one,
+.status-delivered > .progress_one:after,
+.status-delivered > .progress_two:before,
+.status-delivered > .progress_two,
+.status-delivered > .progress_two:after,
+.status-delivered > .progress_three:before,
+.status-delivered > .progress_three,
+.status-delivered > .progress_three:after{
+    background: var(--green);
+    border-color: var(--green);
+}
+
+.status-on_hold > .progress_one:before,
+.status-on_hold > .progress_one,
+.status-on_hold > .progress_one:after,
+.status-on_hold > .progress_two:before,
+.status-on_hold > .progress_two,
+.status-on_hold > .progress_two:after,
+.status-on_hold > .progress_three:before,
+.status-on_hold > .progress_three,
+.status-on_hold > .progress_three:after {
+    color: white;
+    content: '-';
+}
+
+.status-on_hold > .progress_one:before,
+.status-on_hold > .progress_one,
+.status-on_hold > .progress_one:after,
+.status-on_hold > .progress_two:before,
+.status-on_hold > .progress_two,
+.status-on_hold > .progress_two:after,
+.status-on_hold > .progress_three:before,
+.status-on_hold > .progress_three,
+.status-on_hold > .progress_three:after,
+.status-failed_delivery > .progress_one:before,
+.status-failed_delivery > .progress_one,
+.status-failed_delivery > .progress_one:after,
+.status-failed_delivery > .progress_two:before,
+.status-failed_delivery > .progress_two,
+.status-failed_delivery > .progress_two:after,
+.status-failed_delivery > .progress_three:before,
+.status-failed_delivery > .progress_three,
+.status-failed_delivery > .progress_three:after {
+    border-color: var(--warning)
+}
+
+.status-failed_delivery > .progress_three:after {
+    background: var(--warning);
+}
+
+.status-cancelled_internal > .progress_one:before,
+.status-cancelled_internal > .progress_one,
+.status-cancelled_internal > .progress_one:after,
+.status-cancelled_internal > .progress_two:before,
+.status-cancelled_internal > .progress_two,
+.status-cancelled_internal > .progress_two:after,
+.status-cancelled_internal > .progress_three:before,
+.status-cancelled_internal > .progress_three,
+.status-cancelled_internal > .progress_three:after,
+.status-cancelled_by_customer > .progress_one:before,
+.status-cancelled_by_customer > .progress_one,
+.status-cancelled_by_customer > .progress_one:after,
+.status-cancelled_by_customer > .progress_two:before,
+.status-cancelled_by_customer > .progress_two,
+.status-cancelled_by_customer > .progress_two:after,
+.status-cancelled_by_customer > .progress_three:before,
+.status-cancelled_by_customer > .progress_three,
+.status-cancelled_by_customer > .progress_three:after {
+    content: '—';
+    color: var(--warning);
+    border-color: var(--warning);
+}
+
+.status-on_hold > .progress_one:before,
+.status-on_hold > .progress_one,
+.status-on_hold > .progress_one:after,
+.status-on_hold > .progress_two:before,
+.status-on_hold > .progress_two,
+.status-on_hold > .progress_two:after,
+.status-on_hold > .progress_three:before,
+.status-on_hold > .progress_three,
+.status-on_hold > .progress_three:after,
+.status-failed_delivery > .progress_three:after {
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+
+{ "statuses" :[
+        {
+            "id": 1,
+            "name": "Off",
+            "color": "neutral"
+        },
+        {
+            "id": 2,
+            "name": "Available",
+            "color": "success"
+
+        },
+        {
+            "id": 3,
+            "name": "Working",
+            "color": "warning"
+        },
+        {
+            "id": 5,
+            "name": "Break",
+            "color": "alert"
+        }
+    ]
+}

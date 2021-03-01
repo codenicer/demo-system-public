@@ -1,0 +1,25 @@
+.avatar_img {
+    border: 2px solid transparent;
+}
+
+.avatar_img-available {
+    border-color: var(--green);
+}
+
+.avatar_img-working {
+    border-color: var(--warning);
+}
+
+.avatar_img-break {
+    border-color: var(--yellow);
+}
+
+.avatar_no-img-web {
+    background: var(--primary);
+    color: white;
+}
+
+.avatar_no-img-mobile {
+    background: white;
+    color: var(--primary);
+}

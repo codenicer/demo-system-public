@@ -1,0 +1,25 @@
+.barchart_item-label {
+    grid-template-columns: 1fr 5px;
+}
+
+.barchart_item-label::after{
+    content: '';
+    border-bottom: 2px solid black;
+    height: 50%;
+    width: 100%;
+}
+
+.barchart_item {
+    background: var(--primary);
+    padding: 20px 0;
+}
+
+.barchart_value-wrap > * {
+    border-right: 1px solid black;
+}
+
+.barchart_value-item {
+    position: absolute;
+    top: 100%;
+    right : -7px;
+}

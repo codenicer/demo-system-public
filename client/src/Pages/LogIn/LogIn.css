@@ -1,0 +1,26 @@
+
+.login-wrap::after {
+    position: absolute;
+    width: 106%;
+    height: 106%;
+    content: '';
+    top: -10;
+    left: -10;
+    background: url('./login-bg3.jpg') no-repeat center bottom / cover;
+    z-index: 1;
+    filter: blur(4px);
+}
+
+.login-form-wrap {
+    z-index: 2;
+}
+
+.login-input-wrap {
+    grid-template-columns: 20px 1fr;
+    border: 1px solid var(--primary)
+}
+
+.login-username,
+.login-password {
+    border-color: transparent;
+}

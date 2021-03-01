@@ -1,0 +1,8 @@
+._img_src-spinner {
+    animation: rotateit .5s linear infinite;
+}
+
+._no_img-label {
+    background: var(--disabled);
+}
+

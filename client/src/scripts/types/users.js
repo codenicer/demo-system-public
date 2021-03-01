@@ -1,0 +1,6 @@
+export const LOAD_ONLINEUSER = 'LOAD_ONLINEUSER';
+export const LOAD_LOCALUSER = 'LOAD_LOCALUSER';
+export const LOAD_USERS = 'LOAD_USERS';
+export const SET_SELECTED_USER = 'SET_SELECTED_USER';
+export const LOAD_USER_INFO = 'LOAD_USER_INFO';
+export const FETCH_USER = 'FETCH_USER';

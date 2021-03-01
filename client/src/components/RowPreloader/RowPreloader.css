@@ -1,0 +1,33 @@
+.row-preloader {
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255, .9);    
+    z-index: 2;
+}
+
+.row-preloader:after {
+    background: #00A8E8;
+    animation: preload 1s 0s infinite;
+}
+
+.row-preloader:before {
+    background: #fff;
+    display: hidden;
+    animation: preload1 1s infinite;
+    z-index: 1;
+}
+
+.row-preloader:after,
+.row-preloader:before {
+    position: absolute;
+    left: 0;
+}
+
+.row-preloader:after,
+.row-preloader:before {
+    content: '';
+    height: 3px;
+    width: 100%;
+    bottom: 0;
+    transform-origin: 0% 100%;
+}

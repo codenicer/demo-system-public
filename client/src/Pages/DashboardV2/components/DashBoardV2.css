@@ -1,0 +1,13 @@
+._dashboard-table_wrap > ._dashboard_row:nth-child(odd) {
+    background: #F5F5F5;
+}
+
+.dashboard_count:hover{
+    color: rgb(57, 226, 51);
+    cursor: pointer;
+}
+
+.dashboard_no_count:hover{
+    color: rgb(226, 51, 51);
+    cursor: pointer;
+}

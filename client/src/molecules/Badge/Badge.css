@@ -1,0 +1,12 @@
+.badge {
+    background: var(--secondary);
+    border-radius: 4px;
+    padding: 3px 5px;
+    color: white;
+    font-size: .7rem;
+    grid-template-columns: 1fr min-content;
+}
+
+.badge_color-alert {
+    background: var(--yellow)
+}

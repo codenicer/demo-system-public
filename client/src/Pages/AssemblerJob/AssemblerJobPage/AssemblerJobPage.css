@@ -1,0 +1,15 @@
+.job_page-wrap  > * {
+    margin-bottom: 10px;
+}
+
+.accepted_job-wrap {
+    grid-template-rows: auto auto auto 1fr;
+}
+
+.assembly-mobile {
+    grid-column: 1 / -1;
+}
+
+.assembly-web {
+    grid-template-rows: min-content min-content 1fr;
+}

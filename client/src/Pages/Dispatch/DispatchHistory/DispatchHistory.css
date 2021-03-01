@@ -1,0 +1,5 @@
+
+.history_item-row,
+.history_item-header {
+  grid-template-columns: 90px 90px 100px 150px 240px 80px 100px 120px 1fr
+}

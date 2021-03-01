@@ -1,0 +1,7 @@
+.page {
+    top: 60px;
+    right: 1px;
+    width: calc(100% - 120px);
+    height: calc(100% - 60px);
+    background: #F1F1F1;
+}

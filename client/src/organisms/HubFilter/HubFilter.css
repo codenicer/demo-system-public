@@ -1,0 +1,19 @@
+.hub_filter-wrap {
+    height: 39px;
+    width: 100%;
+}
+
+.hub_filter-badge_wrap  {
+    border: 1px solid #929292;
+}
+
+.hub_filter-btn_wrap {
+    width: 20px;
+}
+
+.hub_filter-dropdown_wrap {
+    left: 0;
+    top: 100%;
+}
+
+/* hub_filter-dropdown css is on select component */

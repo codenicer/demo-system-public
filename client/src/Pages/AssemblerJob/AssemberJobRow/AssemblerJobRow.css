@@ -1,0 +1,18 @@
+.assembler_row {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr auto;
+    margin-bottom: 5px;
+}
+
+.assembler_row-top {
+    grid-template-columns: auto 1fr auto auto;
+}
+
+.assembler_row-bot {
+    grid-template-columns: 1fr auto auto;
+}
+
+.assembler_row_btn {
+    grid-row: 1 / -1;
+    grid-column: 2 / -1;
+}

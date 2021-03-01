@@ -1,0 +1,13 @@
+{
+    "undelivered": [
+        "Insufficient or incorrect address",
+        "Recipient is not available",
+        "Incorrect product",
+        "Incomplete order",
+        "Refusal of payment",
+        "Item damaged",
+        "Item lost",
+        "Rider issue",
+        "Road issue"
+    ]
+}

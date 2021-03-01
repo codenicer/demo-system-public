@@ -1,0 +1,43 @@
+.pagination_ {
+    list-style-type: none;
+    display: flex;
+}
+
+.page_btn-active,
+.page_btn-num {
+    border: 1px solid var(--secondary);
+    margin: 0 1px;
+    line-height: 30px;
+}
+
+.page_elli,
+.page_btn-active,
+.page_btn-num {
+    text-align: center;
+}
+
+.page_btn-active,
+.page_btn-num,
+.page_btn,
+.page_elli {
+    width: 30px;
+    height: 30px;
+}
+
+.page_elli {
+    font-size: 1.8rem;
+}
+
+.page_btn-active {
+    background: var(--secondary);
+    color: white !important;
+}
+
+.page_btn-num:hover {
+    background: white;
+}
+
+.page_btn-dis {
+    color: var(--disabled);
+    cursor: not-allowed;
+}

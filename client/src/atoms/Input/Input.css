@@ -1,0 +1,50 @@
+.input {
+    border: 1.3px solid #A9A9A9;
+    outline: rgb(41, 39, 39);
+    padding: 4px;
+    min-height: 28px;
+}
+
+.input-color--default::placeholder {
+    color: var(--input-placeholder-color);
+    font-style: italic;
+}
+
+.input-color--primary {
+    border-color: var(--primary);
+}
+
+.input-color--primary::placeholder {
+    color: var(--primary);
+}
+
+.input-color--secondary {
+    border-color: var(--secondary);
+}
+
+.input-color--secondary,
+.input-color--secondary::placeholder {
+    color: var(--secondary);
+}
+
+.input-color--warning {
+    border-color: var(--warning);
+}
+
+.input-color--warning,
+.input-color--warning::placeholder {
+    color: var(--warning);
+}
+
+.input-state--disabled {
+    border-color: var(--disabled) !important;
+}
+
+.input-state--disabled,
+.input-state--disabled::placeholder {
+    color: var(--disabled) !important;
+}
+
+.input:focus::placeholder {
+    color: transparent;
+}

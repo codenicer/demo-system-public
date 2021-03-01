@@ -1,0 +1,14 @@
+.header-web {
+    border-bottom: 1px solid #EDEDED;
+    grid-template-columns: 15% 1fr 5fr;
+}
+
+.header-mobile {
+    grid-template-columns: 1fr 2fr;
+}
+
+.header-web,
+.header-mobile,
+.header-mobile ~ .body {
+    grid-column: 1 / -1;
+}

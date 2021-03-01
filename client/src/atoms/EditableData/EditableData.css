@@ -1,0 +1,6 @@
+.edit_data > input:disabled,
+.edit_data > textarea:disabled {
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+}

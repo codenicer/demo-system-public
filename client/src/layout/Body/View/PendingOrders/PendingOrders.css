@@ -1,0 +1,29 @@
+/* action orderid qty product payment status amount delivery customer city hub created */
+
+.pending_template {
+    grid-template-columns: 170px 110px 75px 155px 100px 150px 90px 100px 150px 135px 120px 85px 85px 85px 85px;
+}
+
+.no_hub_template {
+    grid-template-columns: 170px 135px 155px 100px 150px 90px 100px 150px 135px 120px 85px;
+}
+
+.no_date_time_template {
+    grid-template-columns: 170px 110px 75px 155px 100px 150px 90px 100px 150px 135px 120px 85px;
+}
+
+.pending_template-bulk {
+    grid-template-columns: 100px 110px 75px 155px 100px 150px 90px 100px 150px 135px 120px 85px;
+}
+
+.order_item-row-template {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.order-grid{
+    grid-template-rows: auto auto auto 1fr auto ;
+}
+
+.orders_unpaid_template {
+    grid-template-rows: auto 1fr auto;
+}

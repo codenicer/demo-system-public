@@ -1,0 +1,50 @@
+{
+    "filters":[ 
+            {
+                "name": "Morning",
+                "label": "9am-1pm",
+                "active": true
+            },
+            {
+                "name": "Afternoon",
+                "label": "1am-5pm",
+                "active": true
+            },
+            {
+                "name": "Evening",
+                "label": "5pm-8pm",
+                "active": true
+            },
+            {
+                "name": "Anytime",
+                "label": "Anytime",
+                "active": true
+            }
+        ],
+    "moreFilters":[
+        {
+            "label": "0-9",
+            "active": false
+        },
+        {
+            "label": "A-E",
+            "active": false
+        },
+        {
+            "label": "F-J",
+            "active": false
+        },
+        {
+            "label": "K-O",
+            "active": false
+        },
+        {
+            "label": "P-T",
+            "active": false
+        },
+        {
+            "label": "U-Z",
+            "active": false
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "delivery_time":
+        [
+            {"label":"Anytime","value":"Anytime"},
+            {"label":"12am - 3am","value":"12am - 3am"},
+            {"label":"6am - 8am","value":"6am - 8am"},
+            {"label":"5pm - 8pm","value":"5pm - 8pm"},
+            {"label":"9am - 1pm","value":"9am - 1pm"},
+            {"label":"1pm - 5pm","value":"1pm - 5pm"},
+            {"label":"5pm - 8pm","value":"5pm - 8pm"},
+            {"label":"9pm - 12am","value":"9pm - 12am"}
+        ]
+
+}

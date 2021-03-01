@@ -1,0 +1,40 @@
+.tooltip {
+    color: #fff;
+    background: #000;
+    z-index: 5;
+    white-space: nowrap;
+    animation: slideInUp .1s;
+}
+
+.tooltip-left:after,
+.tooltip-right:after {
+    position: absolute;
+}
+
+.tooltip-left {
+    border-radius: 0 10px 10px 10px;
+}
+
+.tooltip-right {
+    border-radius: 10px 0 10px 10px;
+}
+
+.tooltip-left:after, 
+.tooltip-right:after {
+    content: '';
+    border-top-left-radius: 0;
+    top: 0;
+    border-bottom: 8px solid #000;
+    margin-top: -8px;
+    z-index: 4;
+}
+
+.tooltip-left:after {
+    left: 0;
+    border-right: 8px solid transparent;
+}
+
+.tooltip-right:after {
+    right: 0;
+    border-left: 8px solid transparent;
+}
